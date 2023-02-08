@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todopage{
+  max-width: 1200px;
+  min-width:800px;
+  height: 800px;
   display: flex;
   flex-direction: column;
+  margin: auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.headerlabel{
+  margin: 50px auto;
+  font-weight: 900;
+}
+
+.header {
+  display: flex;
+  height : 30px;
+  max-width: 1200px;
+  min-width:800px;
+  background-color: #e1e1e1;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.inputbox{
+  width : 350px;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #dddddd;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputform{
+  font-size: 30px;
+  align-items: center;
+  font-weight: bold;
+  margin: 10px;
+  display: flex;
+  gap: 15px;
 }
+
+.addbtn{
+  width : 80px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 30px;
+  background-color: #dddddd;
+  border: none;
+  color: gray;
+  font-size: 20px;
+}
+
+.todoList{
+  width : 300px;
+  height: 130px;
+  border-radius: 20px;
+  background-color: #dddddd;
+  padding: 15px;
+  margin: 10px;
+}
+.workinglist{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+.completelist{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+.todo_title{
+  font-size: 25px;
+  font-weight: 150px;
+  padding: px;
+}
+
+.todo_content{
+  font-size: 15px;
+  padding: 10px;
+  /* color:; */
+}
+
+.workingcard{
+  padding: 30px;
+}
+
+.delbtn{
+  width : 80px;
+  margin: 5px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  color:  #990000;
+  border: none;
+}
+
+.editbtn{
+  width : 80px;
+  height: 30px;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #003366;
+  border: none;
+}
+
