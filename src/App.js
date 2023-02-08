@@ -36,7 +36,7 @@ const App = () => {
 
   const addBtn = () => {
     if(title.trim()==='' || content.trim()===''){
-        alert("Please fill in the blank!")
+        alert("Please fill in the all-blank!")
       return;} 
     const addList = {
       id: todo.length +1,
