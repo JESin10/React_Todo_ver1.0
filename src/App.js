@@ -8,7 +8,7 @@ const App = () => {
       id:0, 
       title : '', 
       content :'', 
-      isDone : true
+      isDone : false
     }
   ])
 
